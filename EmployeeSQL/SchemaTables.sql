@@ -1,9 +1,9 @@
--- drop table departments;
--- drop table dept_emp;
--- drop table dept_manager;
--- drop table employees;
--- drop table salaries;
--- drop table titles;
+drop table departments;
+drop table dept_emp;
+drop table dept_manager;
+drop table employees;
+drop table salaries;
+drop table titles;
 
 create table departments (
 	dept_no varchar,
@@ -58,7 +58,7 @@ select * from dept_manager
 create table salaries (
 	emp_no int,
 	foreign key(emp_no) references employees(emp_no),
-	salary varchar,
+	salary int,
 	primary key(emp_no, salary)
 );
 

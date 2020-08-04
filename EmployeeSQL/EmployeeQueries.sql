@@ -66,6 +66,7 @@ group by last_name
 order by "Last Name Count" desc;
 
 -- BONUS
+-- Please see .ipynb file
 
 -- Epilogue - Ha! Cute!
 
